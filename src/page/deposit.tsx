@@ -23,7 +23,7 @@ export default function Deposit (){
         <button className="bg-slate-400 p-2 rounded-lg mx-2">Btc</button>
 
        <div className="my-10"> 
-        <div><textarea className="bg-slate-200 text-black w-full rounded-sm" value={walletAddress}/></div>
+        <div><p className="bg-slate-200 text-black w-full rounded-sm" >{walletAddress}</p></div>
         <button
         className="bg-slate-400 p-2 rounded-lg"
         onClick={copyToClipboard}
